@@ -1,0 +1,18 @@
+generated: '2026-10-22'
+method: searched
+source: https://registry.npmjs.org/-/v1/search?text=statespace
+packages:
+  - name: "@statespace-tech/sdk"
+    registry: "npm"
+    url: "https://www.npmjs.com/package/@statespace-tech/sdk"
+    official: true
+    version: "0.1.1"
+    published: "2026-10-07"
+    note: "First‑party SDK published by Statespace (homepage https://statespace.com)"
+  - name: "@very-coffee/statespace"
+    registry: "npm"
+    url: "https://www.npmjs.com/package/@very-coffee/statespace"
+    official: false
+    version: "0.1.0"
+    published: "2026-09-29"
+    note: "Third‑party package unrelated to Statespace official SDK"

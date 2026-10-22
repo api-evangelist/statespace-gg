@@ -1,27 +1,103 @@
 aid: statespace-gg
+
 name: Statespace
-description: 'Statespace is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio;
-  backed by bessemer-venture-partners, lux-capital) and added to the network as a stub for full-pipeline
-  profiling.'
+
+image: https://statespace.com/opengraph.png
+
+description: 'Statespace is a venture-backed technology company focused on providing advanced simulation and analytics platforms for complex systems. Their flagship product enables users to model, visualize, and optimize dynamic environments across industries such as aerospace, automotive, and defense. The platform integrates real-time data, AI-driven insights, and collaborative tools to accelerate decision-making and reduce development cycles. Statespace aims to empower engineers and researchers with scalable, cloud-native solutions for high-fidelity simulations.'
+
 url: https://raw.githubusercontent.com/api-evangelist/statespace-gg/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-22 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-21'
+
 modified: '2026-10-21'
+
 tags:
 - Company
-apis: []
+- Simulation
+- Analytics
+- Cloud
+- Engineering
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
+common:
+- type: Spectral
+  url: rules/statespace-gg-rules.yml
+- type: Vocabulary
+  url: vocabulary/statespace-gg-vocabulary.yml
+- type: Conformance
+  url: conformance/statespace-gg-conformance.yml
+- type: LLMsTxt
+  url: llms/statespace-gg-llms.txt
+- type: AgentCard
+  url: a2a/statespace-gg-a2a.yml
+- type: MCPServer
+  url: mcp/statespace-gg-mcp.yml
+- type: WellKnown
+  url: well-known/statespace-gg-well-known.yml
+- type: Hosts
+  url: hosts/statespace-gg-hosts.yml
+- type: Vendors
+  url: vendors/statespace-gg-vendors.yml
+- type: SDKs
+  url: packages/statespace-gg-packages.yml
+- type: Packages
+  url: packages/statespace-gg-packages.yml
+- type: DomainSecurity
+  url: security/statespace-gg-domain-security.yml
+- type: Website
+  url: https://statespace.com
+- type: Documentation
+  url: https://docs.statespace.com
+- type: DeveloperPortal
+  url: https://statespace.com
+- type: GettingStarted
+  url: https://docs.statespace.com/getting-started/installation
+- type: Support
+  url: https://statespace.com/contact/
+- type: Blog
+  url: https://statespace.com/solutions/
+- type: GitHubOrganization
+  url: https://github.com/statespace-tech
+- type: Pricing
+  url: https://statespace.com/signup
+- type: TermsOfService
+  url: https://statespace.com/terms
+- type: PrivacyPolicy
+  url: https://statespace.com/privacy
+
+apis:
+- aid: statespace-gg:statespace-gg-api
+  name: Statespace API
+  description: 'Statespace API as documented publicly: 1 operations. Contract generated from the documentation by API Evangelist (2026-10-22);
+    not the provider''s own document.'
+  humanURL: https://docs.statespace.com/quickstart.md
+  baseURL: https://statespace.com
+  properties:
+  - type: OpenAPI
+    url: openapi/_ae-authored/statespace-gg-openapi-generated.yml
+    x-provenance: generated
+
 x-backed-by:
 - bessemer-venture-partners
 - lux-capital
-common:
-- type: Website
-  url: https://statespace.gg
+x-enrichment:
+  date: '2026-10-22'
+  status: enriched
+  artifacts_added: 25
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

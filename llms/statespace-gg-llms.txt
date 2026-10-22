@@ -1,0 +1,27 @@
+# Statespace
+
+> A/B test whole versions of your app on live traffic.
+
+- [Statespace](https://docs.statespace.com/index.md): A/B test whole versions of your app on live traffic, and analyze the results with SQL.
+- [Quickstart](https://docs.statespace.com/quickstart.md): Test a new search ranking on live traffic and read the result.
+- [Installation](https://docs.statespace.com/getting-started/installation.md): Install the CLI and create the tokens a deployment needs.
+- [Deployment](https://docs.statespace.com/getting-started/deployment.md): Publish variants from CI and run ssp proxy on Docker or Kubernetes.
+- [Eligibility](https://docs.statespace.com/concepts/random-sampling.md): Select subjects with information in the request.
+- [Treatments and control groups](https://docs.statespace.com/concepts/treatments-and-control-groups.md): Compare variants of an app with a control arm of the version you deployed.
+- [Random assignment](https://docs.statespace.com/concepts/random-assignment.md): Keep each subject in one variant, and each experiment's subjects apart.
+- [Outcome measures](https://docs.statespace.com/concepts/outcome-measures.md): Record responses and define how an experiment measures change.
+- [Statistical inference](https://docs.statespace.com/concepts/statistical-inference.md): Estimate treatment effects and quantify uncertainty in experiment results.
+- [Define the experiment](https://docs.statespace.com/workflow/define-the-experiment.md): Publish the variant, then choose its subjects, eligibility, and share of subjects.
+- [Apply the treatments](https://docs.statespace.com/workflow/apply-the-treatments.md): Run the default and the arms behind ssp proxy, and record what they print.
+- [Analyze the outcomes](https://docs.statespace.com/workflow/analyze-the-outcomes.md): Query runs, lines, and requests, then record a decision.
+- [Simple A/B experiment](https://docs.statespace.com/examples/simple-ab-experiment.md): Compare one variant with its control arm.
+- [Account-level experiment](https://docs.statespace.com/examples/cluster-randomized-experiment.md): Keep users in one account in the same arm.
+- [Analysis walkthrough](https://docs.statespace.com/examples/full-analysis-walkthrough.md): Check delivery and health, then compare one field of the lines arms print.
+- [Apps, variants, and experiments](https://docs.statespace.com/reference/experiment-definition.md): Define apps, variants, and experiments with CLI flags.
+- [CLI](https://docs.statespace.com/reference/cli.md): Review the public ssp command surface.
+- [Proxy](https://docs.statespace.com/reference/proxy.md): Review how ssp proxy routes requests, runs containers, and records events.
+- [Controller](https://docs.statespace.com/reference/controller.md): Review how ssp controller runs arms on Kubernetes.
+- [PostgreSQL schema](https://docs.statespace.com/reference/database-schema.md): Review each app's analysis views, the account's audit log, and what they hold.
+
+
+This documentation is built and hosted on [Mintlify](https://mintlify.com), a developer documentation platform.

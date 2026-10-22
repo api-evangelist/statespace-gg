@@ -1,0 +1,25 @@
+generated: '2026-10-22'
+method: searched
+source: https://statespace.com/privacy
+signals:
+  data_subject_request:
+    - source: https://statespace.com/privacy
+      http_status: 200
+      fetched: true
+      quote: "Audit records can include identifiers associated with a data-erasure request."
+      section: "2. Information we process"
+      note: Indicates ability to handle data subject erasure requests.
+  data_retention:
+    - source: https://statespace.com/privacy
+      http_status: 200
+      fetched: true
+      quote: "The current default retention period for raw experiment events is 90 days from server ingestion."
+      section: "6. Retention and deletion"
+      note: Statespace retains raw event data for 90 days by default.
+  subprocessors:
+    - source: https://statespace.com/privacy
+      http_status: 200
+      fetched: true
+      quote: "We use service providers to host and operate Statespace. The implementation uses Amazon Web Services for website delivery, artifact storage, event queues, and contact email delivery."
+      section: "5. Service providers and disclosures"
+      note: Lists AWS as a subprocessors/service provider.

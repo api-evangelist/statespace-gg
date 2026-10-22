@@ -1,0 +1,15 @@
+generated: '2026-10-22'
+method: derived
+generator: derive-vocabulary.py
+source: openapi/_ae-authored/statespace-gg-openapi-generated.yml
+vocabulary:
+  name: Statespace Domain Vocabulary
+  description: 'Terms declared by Statespace''s own API contract: its resource groups, objects and enumerations, with the contract''s definitions.
+    Derived, not authored.'
+  version: '2026-10-22'
+  terms:
+  - term: Install
+    definition: 'Resource group in the contract; its operation GET /install.sh: Fetch the install script from https://statespace.com/install.sh.'
+    tags:
+    - Resource Group
+    source: openapi/_ae-authored/statespace-gg-openapi-generated.yml

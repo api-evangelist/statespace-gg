@@ -1,0 +1,9 @@
+generated: '2026-10-22'
+method: probed
+source: https://docs.statespace.com/.well-known/mcp/server-card.json
+type: MCPServer
+deployment:
+  mode: remote
+  endpoint: https://docs.statespace.com/mcp
+  auth: none
+  verified: probed

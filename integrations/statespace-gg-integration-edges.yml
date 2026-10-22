@@ -1,0 +1,18 @@
+generated: '2026-10-22'
+method: none
+source:
+- https://zapier.com/apps/statespace-gg/integrations
+- https://zapier.com/apps/statespace/integrations
+- https://n8n.io/integrations/statespace-gg/
+- https://composio.dev/toolkits/statespace-gg
+- https://monid.ai/tools/statespace-gg
+checked:
+- https://composio.dev/toolkits/statespace-gg
+- https://monid.ai/tools/statespace-gg
+- https://n8n.io/integrations/statespace-gg/
+- https://zapier.com/apps/statespace-gg/integrations
+- https://zapier.com/apps/statespace/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

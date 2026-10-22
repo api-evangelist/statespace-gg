@@ -1,0 +1,43 @@
+openapi: 3.1.0
+info:
+  title: Statespace API
+  version: '2026-10-22'
+  description: 'GENERATED FROM DOCUMENTATION by API Evangelist on 2026-10-22: 1 operation(s) read from 6 public documentation page(s) (each operation
+    names its page in x-source). This is not the provider''s published contract; Statespace has published no machine-readable contract that the
+    pipeline could find. Engine: local.'
+  x-evidence-tiers:
+    code-example: 0
+    documentation: 1
+    pages-with-code: 6
+    pages-read: 6
+  x-generated-from: documentation
+  x-provenance: generated
+  x-authored-by: API Evangelist
+  x-generated: '2026-10-22'
+  x-generator: generate-contract-from-docs.py
+  x-engine: local
+  x-sources:
+  - https://docs.statespace.com/quickstart.md
+  - https://docs.statespace.com/quickstart
+  - https://docs.statespace.com/getting-started/installation
+  - https://docs.statespace.com/getting-started/deployment.md
+  - https://docs.statespace.com/getting-started/installation.md
+  - https://docs.statespace.com/getting-started/deployment
+servers:
+- url: https://statespace.com
+paths:
+  /install.sh:
+    get:
+      operationId: get_install_sh
+      tags:
+      - Install
+      summary: Install the CLI and sign in
+      description: Fetch the install script from https://statespace.com/install.sh.
+      x-source: https://docs.statespace.com/quickstart.md
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+tags:
+- name: Install
